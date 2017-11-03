@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">مستريح</string>
+
+    <string name="nameAr">مستريح العقارى</string>
+    <string name="sloganAr">نسخر لك خبرتنا و امكانياتنا العقارية</string>
+
+    <string name="register">التسجيل</string>
+    <string name="mobile">رقم الجوال</string>
+
+    <string name="reg_msg">للتأكد من رقم جوالك سوف يتم إرسال كود التفعيل على رقم جوالك</string>
+
+    <string name="acc_verification">تفعيل الحساب</string>
+    <string name="verification_code">كود التفعيل</string>
+
+    <string name="verification_fail_msg">برجاء إدخال كود تفعيل صحيح</string>
+    <string name="mobile_fail_msg">برجاء إدخال رقم جوال صحيح</string>
+
+    <string name="menu">القائمة</string>
+    <string name="building_order1">طلب عقار</string>
+    <string name="building_order2">بيانات الطلب</string>
+    <string name="building_form">إستمارة العقار</string>
+    <string name="building_evaluation">تقييم العقار</string>
+    <string name="app_evaluation">تقييم التطبيق</string>
+</resources>

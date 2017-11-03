@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="رقم عضوية المندوب"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="السجل التجارى أو رقم الهوية"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="تلريخ الإنتهاء"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="الموظف المسؤول (العقارى المختص)"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="@string/mobile"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="البريد الإلكترونى"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="الدولة"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="المدينة"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="الحى"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/filebtn_bg"
+                    android:textColor="@color/white"
+                    app:theme="@style/CustomFont"
+                    android:text="إختيار ملف"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/CustomFont"
+                    android:text="صورة السجل                 "/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/filebtn_bg"
+                    android:textColor="@color/white"
+                    app:theme="@style/CustomFont"
+                    android:text="إختيار ملف"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:theme="@style/CustomFont"
+                    android:text="لوحة الشريك                  "/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="العرض"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:theme="@style/CustomFont"
+                android:text="العقار"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/txt_field"
+                app:theme="@style/CustomFont"
+                android:background="@drawable/txt_field"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_bg"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                app:theme="@style/CustomFont"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:text="إرسال"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
